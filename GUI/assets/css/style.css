@@ -1,0 +1,103 @@
+body{
+    background-color: #f5F5F5;
+}
+@font-face{
+    font-family: "Titan One";
+    src: url(assets/font/TitanOne-Regular.ttf);
+}
+.logo-name{
+    font-family: "Titan One";
+    font-size: 48px;
+}
+label{
+    margin: 0%;
+}
+.logo-color{
+    color: #FFDE1D;
+}
+.kategori li {
+    list-style: none;
+    /* Gantikan property float ke left */
+    float:left;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .link-kategori{
+      color: black;
+  }
+.link-kategori:hover{
+    text-decoration: none;
+    color: white;
+
+}
+.yellow{
+    border: none;
+    background-color: #ffc802;
+
+}
+.wrap{
+    background-color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    outline: yellow;
+}
+input[type=text]{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+.padding-top80{
+    padding-top: 80px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 40%;
+    left: 0%;
+    color: white;
+    padding: 5px;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+  }
+  .bottom-left2 {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    color: white;
+    padding: 5px;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+  }
+  .bottom-left-gal {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    color: white;
+    padding: 5px;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+  }
+  .card-badan{
+      padding-top: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: lightgray;
+      width: 100%;
+      height: 100%;
+  }
+  .bottom{
+    position: absolute;
+    bottom: 5%;
+
+  }
+  .card-badan2{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lightgray;
+    width: 100%;
+    height: 44.2%;
+}
